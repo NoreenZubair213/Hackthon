@@ -1,0 +1,56 @@
+/* General Navbar Styles */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbebb5; /* Light yellow background */
+  padding: 20px 40px; /* Top-Bottom: 20px, Left-Right: 40px */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.navbar-container{
+  margin-left: 450px;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 80px; /* Space between links */
+}
+
+.navbar-links li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000; /* Black text */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li:hover {
+  color: #000000ac; /* Hover color */
+}
+
+/* Icons Section */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between icons */
+}
+
+.navbar-icons .shopinng{
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #000; /* Black icons */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #000000ac; /* Hover color for icons */
+  transform: scale(1.1); /* Slight scaling effect on hover */
+}
